@@ -108,12 +108,12 @@ These are hard limits, never crossed:
 ### One command (auto-detects runtime)
 
 ```bash
-npx skills-cli install bys-work-report
+npx skills-cli install work-report
 ```
 
 ### Manual
 
-Clone this repository and place the entire `bys-work-report/` directory into your tool's skills folder:
+Clone this repository and place the entire `work-report/` directory into your tool's skills folder:
 
 | Runtime | Path |
 |---|---|
@@ -169,7 +169,7 @@ No web lookups are performed on internal company information. Any web search ask
 ## Structure
 
 ```
-bys-work-report/
+work-report/
 ├── SKILL.md                        Core: hard limits, checkpoints, mode routing, failure branches
 ├── references/
 │   ├── 00-初始化与欢迎语.md         Onboarding

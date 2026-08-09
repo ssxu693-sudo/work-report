@@ -106,12 +106,12 @@
 ### 一行命令（自动识别 runtime）
 
 ```bash
-npx skills-cli install bys-work-report
+npx skills-cli install work-report
 ```
 
 ### 手动安装
 
-克隆本仓库，把 `bys-work-report/` 整个目录放进你所用工具的 skills 目录：
+克隆本仓库，把 `work-report/` 整个目录放进你所用工具的 skills 目录：
 
 | Runtime | 路径 |
 |---|---|
@@ -173,7 +173,7 @@ npx skills-cli install bys-work-report
 ## 目录结构
 
 ```
-bys-work-report/
+work-report/
 ├── SKILL.md                        主控：红线、检查点、Mode 路由、失败分支
 ├── references/
 │   ├── 00-初始化与欢迎语.md
